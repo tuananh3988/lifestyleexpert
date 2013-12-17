@@ -767,6 +767,7 @@ img.wp-smiley,
   position: relative;
   background-color: #f8f8f8;
   border-bottom: 1px solid #cccccc;
+	min-width: 960px;
 }
  
 #wrap-headder {
@@ -812,8 +813,8 @@ img.wp-smiley,
 
 .wrap-home {
   width: 960px;
-height: auto;
-margin: 0 auto;
+	height: auto;
+	margin: 0 auto;
   
 }
 
@@ -840,4 +841,80 @@ margin: 0 auto;
   margin: 0
   text-transform: uppercase;
   line-height: 64px;
+}
+
+.wrap-ddpage {
+	background: url('./images/dd-bg.jpg') no-repeat top center;
+	min-width: 960px;
+	max-width: 1349px;
+}
+
+.ddpage-content {
+	width: 960px;
+	height: 915px;
+	margin: 0 auto;
+	position: relative;
+}
+
+.side-block li {
+	list-style: none;
+}
+
+.side-block a{
+	text-decoration: none;
+}
+
+.side-block {
+	display:block;
+	background: url('./images/side-nav-bg.png') repeat center center;
+	width: 382px;
+	height: auto;
+    position: absolute;
+    top: 60px;
+}
+.side-nav {
+	font-family: "Oswald", Sans-Serif;
+	font-weight: bold;
+	font-size: 35px;
+	padding: 0;
+	margin: 0;
+	top: 0px;
+}
+
+.side-nav a {
+	display: block;
+	padding: 0 0 0 20px;
+	border-bottom: 1px solid #fff;
+	line-height: 70px;
+	color: #fff;
+	outline: none;
+}
+.side-nav a.last{
+	border-bottom: none;
+}
+.sub-nav li a {
+	font-size: 25px;
+	color: #9accff;
+	padding-left:  60px;
+	font-weight: normal;
+	line-height: 65px;
+}
+.sub-nav {
+	padding: 0; 
+	margin: 0
+}
+
+.aboutpage-content {
+	width: 960px;
+	margin: 0 auto;	
+}
+
+.aboutpage-content #content {
+	margin-top: 30px;
+}
+
+.aboutpage-content #content p {
+	font-family: Arial;
+	font-size: 15px;
+	color: #333333;
 }

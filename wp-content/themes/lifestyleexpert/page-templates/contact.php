@@ -33,22 +33,18 @@ get_header(); ?>
         <div id="tabs">
           <ul>
             <li><a href="#tabs-1">Phone</a></li>
-            <li><a href="#tabs-2">Live Help</a></li>
-            <li><a href="#tabs-3">Email</a></li>
-            <li><a href="#tabs-4">Other</a></li>
+            
+            <li><a href="#tabs-2">Email</a></li>
+            
           </ul>
           <div id="tabs-1">
             <p><?php echo $phone; ?></p>
           </div>
+       
           <div id="tabs-2">
-            <p><?php echo $liveHelp; ?></p>
-          </div>
-          <div id="tabs-3">
             <?php echo do_shortcode('[contact-form-7 id="23" title="Contact form 1"]'); ?>
           </div>
-          <div id="tabs-4">
-            <p><?php echo $other; ?></p>
-          </div>
+
         </div>
       </div>
       

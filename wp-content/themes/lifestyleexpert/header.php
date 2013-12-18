@@ -31,29 +31,29 @@
 	<script src="<?php bloginfo('template_directory'); ?>/js/jquery-ui-1.10.3.custom.js"></script>
 	<script>
 	$(function() {	
-		$( "#tabs" ).tabs();
+		$( "#tabs" ).tabs({ active: 1 });
 	});
-	<!--[if lt IE 9]>
   </script>
-	<script src="<?php echo get_template_directory_uri(); ?>/js/html5.js"></script>
-	<![endif]-->
+
 	<?php wp_head(); ?>
 </head>
 
 <body <?php body_class(); ?>>
 	<div id="page" class="hfeed site">
-		<header id="masthead" class="site-header" role="banner">
+		<div id="masthead" class="site-header" role="banner">
       <div id="wrap-headder">
         <div class="wrap-logo">
           <a class="home-link" href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home">
             <img alt="logo" class="logo" src="<?php bloginfo('template_directory'); ?>/images/logopage.png" />
           </a>
         </div>
-        <div class="main-nav"><?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_class' => 'nav-menu' ) ); ?></div>
+        <div class="main-nav">
+					<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_class' => 'nav-menu' ) ); ?>
+				</div>
         <div class="clear"></div>
       </div>
 			
 
-		</header><!-- #masthead -->
+		</div><!-- #masthead -->
 
 		<div id="main" class="site-main">

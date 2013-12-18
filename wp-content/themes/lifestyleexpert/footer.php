@@ -12,7 +12,17 @@
 
 		</div><!-- #main -->
 		<footer id="colophon" class="site-footer" role="contentinfo">
-			
+			<div class="footer-nav">
+				<?php 
+					$menu = wp_get_nav_menu_items( 3 ); 
+					$content = '';
+					foreach ($menu as $key => $value) {
+						$content .= '<a href="' . $value->url . '">' . $value->title . '</a> | ';
+					}
+					echo $content;
+				?>
+				<p>All rights reserved - Master Drafters - 2013</p>
+			</div>
 		</footer><!-- #colophon -->
 	</div><!-- #page -->
 

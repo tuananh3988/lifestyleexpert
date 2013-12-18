@@ -13,17 +13,17 @@ get_header(); ?>
   <div class="ddpage-content">
     <div class="side-block">
 				<ul class="side-nav">
-						<li><a href="#">Residental</a>
+						<li><span href="#">Residental</span>
 								<ul class="sub-nav">
-										<li><a href="">Custom Home Design</a></li>
-										<li><a href="">Additions</a></li>
-										<li><a href="">Alterations & Remodels</a></li>
-										<li><a href="">Other</a></li>
+										<li><span href="">Custom Home Design</span></li>
+										<li><span href="">Additions</span></li>
+										<li><span href="">Alterations & Remodels</span></li>
+										<li><span href="">Other</span></li>
 								</ul>
 						</li>
-						<li><a href="#">Commercial</a></li>
-						<li><a href="#">Technical Drawing</a></li>
-						<li><a href="#"  class="last">Variance Packages</a></li>
+						<li><span href="#">Commercial</span></li>
+						<li><span href="#">Technical Drawing</span></li>
+						<li><span href="#"  class="last">Variance Packages</span></li>
 				</ul>
 		</div>
   </div>

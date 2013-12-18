@@ -162,6 +162,9 @@
 .ui-tabs .ui-tabs-nav {
 	margin: 0;
 	padding: .2em .2em 0;
+	border-right: none; 
+	border-top: none;
+	border-left: none;
 }
 .ui-tabs .ui-tabs-nav li {
 	list-style: none;

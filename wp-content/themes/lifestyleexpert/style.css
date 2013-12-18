@@ -880,7 +880,7 @@ img.wp-smiley,
 	top: 0px;
 }
 
-.side-nav a {
+.side-nav span {
 	display: block;
 	padding: 0 0 0 20px;
 	border-bottom: 1px solid #fff;
@@ -888,10 +888,10 @@ img.wp-smiley,
 	color: #fff;
 	outline: none;
 }
-.side-nav a.last{
+.side-nav span.last{
 	border-bottom: none;
 }
-.sub-nav li a {
+.sub-nav li span {
 	font-size: 25px;
 	color: #9accff;
 	padding-left:  60px;
@@ -972,4 +972,13 @@ img.wp-smiley,
   font-size: 15px;
   font-family: arial;
 
+}
+
+
+.footer-nav {
+  text-align: center;
+	height: 85px;
+	padding-top: 20px;
+	font-size: 15px;
+	color: #333;
 }

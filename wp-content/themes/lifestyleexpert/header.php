@@ -26,7 +26,15 @@
 	<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
   <link href='http://fonts.googleapis.com/css?family=Lato:700' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo('template_directory'); ?>/style.css" />
+  <link href="<?php bloginfo('template_directory'); ?>/css/custom-theme/jquery-ui-1.10.3.custom.css" rel="stylesheet">
+	<script src="<?php bloginfo('template_directory'); ?>/js/jquery-1.9.1.js"></script>
+	<script src="<?php bloginfo('template_directory'); ?>/js/jquery-ui-1.10.3.custom.js"></script>
+	<script>
+	$(function() {	
+		$( "#tabs" ).tabs();
+	});
 	<!--[if lt IE 9]>
+  </script>
 	<script src="<?php echo get_template_directory_uri(); ?>/js/html5.js"></script>
 	<![endif]-->
 	<?php wp_head(); ?>

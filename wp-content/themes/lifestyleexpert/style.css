@@ -846,7 +846,6 @@ img.wp-smiley,
 .wrap-ddpage {
 	background: url('./images/dd-bg.jpg') no-repeat top center;
 	min-width: 960px;
-	max-width: 1349px;
 }
 
 .ddpage-content {
@@ -904,7 +903,7 @@ img.wp-smiley,
 	margin: 0
 }
 
-.aboutpage-content {
+.aboutpage-content, .contactpage-content {
 	width: 960px;
 	margin: 0 auto;	
 }
@@ -917,4 +916,60 @@ img.wp-smiley,
 	font-family: Arial;
 	font-size: 15px;
 	color: #333333;
+}
+
+.image-left {
+  float: left;
+  width: 515px;
+}
+
+.tab-content{
+  float: left;
+  width: 442px;
+}
+
+.wrap-tab-content{
+  padding: 38px 0 30px 28px;
+}
+
+.wrap-tab-content h2 {
+  font-family: Lato;
+  font-size: 20px;
+  color: #333333;
+  padding: 0;
+  margin: 0 0 10px;
+}
+
+#tabs table input, #tabs table select  {
+  background-color: #aeaeae;
+  width: 222px;
+  height: 40px;
+  border: none;
+}
+
+#tabs table textarea {
+  background-color: #aeaeae;
+  width: 222px;
+  border: none;
+}
+
+.contact-form-1, .contact-form-1 td {
+  border: none;
+}
+
+.wrap-send {
+  text-align: right;
+}
+
+.wrap-send input {
+  width: 95px;
+  height: 35px;
+  line-height: 35px;
+  padding: 0;
+}
+
+.wrap-tab-content p {
+  font-size: 15px;
+  font-family: arial;
+
 }

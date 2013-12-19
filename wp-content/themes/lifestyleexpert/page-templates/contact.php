@@ -38,7 +38,7 @@ get_header(); ?>
             
           </ul>
           <div id="tabs-1">
-            <p><?php echo $phone; ?></p>
+            <p><?php echo nl2br($phone); ?></p>
           </div>
        
           <div id="tabs-2">

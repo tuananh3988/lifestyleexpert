@@ -762,6 +762,7 @@ img.wp-smiley,
  * ----------------------------------------------------------------------------
  */
 @font-face {font-family:"Oswald";src:url("fonts/oswald/Oswald.eot?") format("eot"),url("fonts/oswald/Oswald.woff") format("woff"),url("fonts/oswald/Oswald.ttf") format("truetype"),url("fonts/oswald/Oswald.svg#Oswald") format("svg");font-weight:normal;font-style:normal;}
+a, input[type="submit"], input:hover, textarea:hover { transition-property:all; -moz-transition-property:all; -webkit-transition-property:all; transition-duration:0.12s; -moz-transition-duration:0.12s; -webkit-transition-duration:0.12s; transition-timing-function:linear, ease-in; -moz-transition-timing-function:linear, ease-in; -webkit-transition-timing-function:linear, ease-in; }
 #masthead {
   height: 85px;
   position: relative;
@@ -807,7 +808,11 @@ img.wp-smiley,
   text-decoration: none;
 }
 
-.main-nav ul li.current-menu-item a{
+.main-nav ul li.current-menu-item a:hover, .main-nav ul li.current-menu-item a, .footer-nav a.active:hover, .footer-nav a.active {
+	color: #ac0404;
+}
+
+.main-nav ul li a:hover{
   color: #000060;
 }
 
@@ -981,4 +986,13 @@ img.wp-smiley,
 	padding-top: 20px;
 	font-size: 15px;
 	color: #333;
+}
+
+.footer-nav a {
+	color: #202c86;
+}
+
+.footer-nav a:hover {
+	text-decoration: none;
+	color: #979abf;
 }

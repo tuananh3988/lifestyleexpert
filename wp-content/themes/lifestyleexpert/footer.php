@@ -17,9 +17,11 @@
 					$menu = wp_get_nav_menu_items( 3 ); 
 					$content = '';
 					foreach ($menu as $key => $value) {
-						$content .= '<a href="' . $value->url . '">' . $value->title . '</a> | ';
+						$class = (get_permalink() == $value->url) ? 'active' : '';
+						$content .= '<a class="' . $class . '" href="' . $value->url . '">' . $value->title . '</a> | ';
 					}
-					echo $content;
+					
+					echo substr($content, 0, -2);
 				?>
 				<p>All rights reserved - Master Drafters - 2013</p>
 			</div>
